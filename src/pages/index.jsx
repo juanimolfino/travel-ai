@@ -94,7 +94,7 @@ export default function Home() {
                 {loading ? "Thinking..." : "Generate"}
               </button>
               {error && (
-                <section className="text-red-600 font-bold text-2xl mt-4">
+                <section className="text-red-600 font-semibold text-2xl mt-4">
                   <div>{error.message}</div>
                 </section>
               )}
